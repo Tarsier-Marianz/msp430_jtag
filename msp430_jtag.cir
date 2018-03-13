@@ -1,0 +1,35 @@
+* D:\Users\TARSIER\Documents\KiCad Projects\msp430_jtag.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 8/5/2017 9:50:28 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+P1  Net-_P1-Pad1_ Net-_P1-Pad2_ Net-_P1-Pad3_ Net-_P1-Pad4_ ? ? ? ? ? ? ? Net-_P1-Pad12_ ? Net-_P1-Pad14_ ? Net-_P1-Pad16_ Net-_P1-Pad17_ GND GND GND GND GND GND GND GND CONN_01X25		
+U1  Net-_R11-Pad2_ Net-_R13-Pad1_ ? Net-_R7-Pad2_ ? Net-_R8-Pad2_ Net-_R17-Pad1_ Net-_R9-Pad2_ ? GND GND Net-_R16-Pad1_ Net-_R10-Pad2_ Net-_R15-Pad1_ GND Net-_R14-Pad1_ GND Net-_R6-Pad2_ Net-_R12-Pad2_ VCC 74LS244		
+R10  Net-_P1-Pad1_ Net-_R10-Pad2_ R		
+R7  Net-_P1-Pad4_ Net-_R7-Pad2_ R		
+R8  Net-_P1-Pad3_ Net-_R8-Pad2_ R		
+R9  Net-_P1-Pad2_ Net-_R9-Pad2_ R		
+R13  Net-_R13-Pad1_ /TDO R		
+R14  Net-_R14-Pad1_ /TCK R		
+R15  Net-_R15-Pad1_ /TMS R		
+R16  Net-_R16-Pad1_ /TDI R		
+R11  Net-_P1-Pad17_ Net-_R11-Pad2_ R		
+R12  Net-_P1-Pad14_ Net-_R12-Pad2_ R		
+R6  Net-_P1-Pad12_ Net-_R6-Pad2_ R		
+R5  Net-_P1-Pad14_ VCC R		
+R1  Net-_P1-Pad16_ GND R		
+R3  Net-_Q1-Pad1_ GND R		
+R4  Net-_P1-Pad17_ VCC R		
+C1  VCC GND CP		
+Q1  Net-_Q1-Pad1_ Net-_Q1-Pad2_ VCC PN2222A		
+P2  VCC GND /TDO /TCK /TMS /TDI /RST CONN_01X07		
+R17  Net-_R17-Pad1_ /RST R		
+R2  Net-_P1-Pad16_ Net-_Q1-Pad2_ R		
+P3  GND VCC CONN_01X02		
+D1  GND Net-_D1-Pad2_ LED		
+R18  Net-_D1-Pad2_ VCC R		
+
+.end
