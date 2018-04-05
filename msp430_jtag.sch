@@ -247,7 +247,7 @@ U 1 1 5985B213
 P 3150 4300
 F 0 "Q1" H 3350 4375 50  0000 L CNN
 F 1 "PN2222A" H 3350 4300 50  0000 L CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_BigPads" H 3350 4225 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3350 4225 50  0001 L CIN
 F 3 "" H 3150 4300 50  0000 L CNN
 	1    3150 4300
 	1    0    0    -1  
