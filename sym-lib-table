@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name msp430_jtag-rescue)(type Legacy)(uri ${KIPRJMOD}/msp430_jtag-rescue.lib)(options "")(descr ""))
+)

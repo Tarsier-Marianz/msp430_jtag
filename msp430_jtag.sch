@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:msp430_jtag-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -44,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X25 P1
+L msp430_jtag-rescue:CONN_01X25 P1
 U 1 1 5985A5D2
 P 1350 2600
 F 0 "P1" H 1350 3900 50  0000 C CNN
@@ -55,7 +26,7 @@ F 3 "" H 1350 2600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74LS244 U1
+L msp430_jtag-rescue:74LS244 U1
 U 1 1 5985AC16
 P 5700 2600
 F 0 "U1" H 5750 2400 50  0000 C CNN
@@ -66,7 +37,7 @@ F 3 "" H 5700 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L Device:R R10
 U 1 1 5985ACF1
 P 4250 2750
 F 0 "R10" V 4330 2750 50  0000 C CNN
@@ -77,7 +48,7 @@ F 3 "" H 4250 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R7
+L Device:R R7
 U 1 1 5985AE18
 P 4250 1950
 F 0 "R7" V 4330 1950 50  0000 C CNN
@@ -88,7 +59,7 @@ F 3 "" H 4250 1950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L Device:R R8
 U 1 1 5985AEC0
 P 4250 2150
 F 0 "R8" V 4330 2150 50  0000 C CNN
@@ -99,7 +70,7 @@ F 3 "" H 4250 2150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R9
+L Device:R R9
 U 1 1 5985AEC6
 P 4250 2350
 F 0 "R9" V 4330 2350 50  0000 C CNN
@@ -110,7 +81,7 @@ F 3 "" H 4250 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R13
+L Device:R R13
 U 1 1 5985AF8C
 P 7250 1950
 F 0 "R13" V 7330 1950 50  0000 C CNN
@@ -121,7 +92,7 @@ F 3 "" H 7250 1950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R14
+L Device:R R14
 U 1 1 5985AF92
 P 7250 2150
 F 0 "R14" V 7330 2150 50  0000 C CNN
@@ -132,7 +103,7 @@ F 3 "" H 7250 2150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R15
+L Device:R R15
 U 1 1 5985AF98
 P 7250 2350
 F 0 "R15" V 7330 2350 50  0000 C CNN
@@ -143,7 +114,7 @@ F 3 "" H 7250 2350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R16
+L Device:R R16
 U 1 1 5985AF9E
 P 7250 2550
 F 0 "R16" V 7330 2550 50  0000 C CNN
@@ -154,7 +125,7 @@ F 3 "" H 7250 2550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R11
+L Device:R R11
 U 1 1 5985B150
 P 4250 3100
 F 0 "R11" V 4330 3100 50  0000 C CNN
@@ -165,7 +136,7 @@ F 3 "" H 4250 3100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R12
+L Device:R R12
 U 1 1 5985B156
 P 4250 3350
 F 0 "R12" V 4330 3350 50  0000 C CNN
@@ -176,7 +147,7 @@ F 3 "" H 4250 3350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 5985B15C
 P 4250 1700
 F 0 "R6" V 4330 1700 50  0000 C CNN
@@ -187,7 +158,7 @@ F 3 "" H 4250 1700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 5985B162
 P 3900 3600
 F 0 "R5" V 3980 3600 50  0000 C CNN
@@ -198,7 +169,7 @@ F 3 "" H 3900 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5985B168
 P 2100 4700
 F 0 "R1" V 2180 4700 50  0000 C CNN
@@ -209,7 +180,7 @@ F 3 "" H 2100 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5985B16E
 P 3250 4700
 F 0 "R3" V 3330 4700 50  0000 C CNN
@@ -220,7 +191,7 @@ F 3 "" H 3250 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 5985B174
 P 3600 3600
 F 0 "R4" V 3680 3600 50  0000 C CNN
@@ -231,7 +202,7 @@ F 3 "" H 3600 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C1
+L Device:CP C1
 U 1 1 5985B194
 P 7100 1400
 F 0 "C1" H 7125 1500 50  0000 L CNN
@@ -242,7 +213,7 @@ F 3 "" H 7100 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PN2222A Q1
+L msp430_jtag-rescue:PN2222A Q1
 U 1 1 5985B213
 P 3150 4300
 F 0 "Q1" H 3350 4375 50  0000 L CNN
@@ -253,7 +224,7 @@ F 3 "" H 3150 4300 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X07 P2
+L msp430_jtag-rescue:CONN_01X07 P2
 U 1 1 5985B934
 P 8400 1950
 F 0 "P2" H 8400 2350 50  0000 C CNN
@@ -264,7 +235,7 @@ F 3 "" H 8400 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L Device:R R17
 U 1 1 5985BC79
 P 7250 2750
 F 0 "R17" V 7330 2750 50  0000 C CNN
@@ -275,7 +246,7 @@ F 3 "" H 7250 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5985BCDB
 P 2550 4300
 F 0 "R2" V 2630 4300 50  0000 C CNN
@@ -381,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2500 4800 2500
 Wire Wire Line
-	4800 2500 4800 5700
+	4800 2500 4800 2700
 Wire Wire Line
 	5000 2700 4800 2700
 Connection ~ 4800 2700
@@ -389,7 +360,7 @@ Wire Wire Line
 	5000 2800 4800 2800
 Connection ~ 4800 2800
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5985F0AE
 P 6900 1250
 F 0 "#PWR01" H 6900 1000 50  0001 C CNN
@@ -400,20 +371,20 @@ F 3 "" H 6900 1250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6900 1250 6900 1750
+	6900 1250 6900 1400
 Wire Wire Line
 	6900 1750 8200 1750
 Wire Wire Line
-	7300 1250 7300 1650
+	7300 1250 7300 1400
 Wire Wire Line
 	7300 1650 8200 1650
 Wire Wire Line
-	1550 1400 6950 1400
+	1550 1400 1800 1400
 Connection ~ 6900 1400
 Wire Wire Line
 	1800 2100 1550 2100
 Wire Wire Line
-	1800 1400 1800 2100
+	1800 1400 1800 1500
 Connection ~ 1800 1400
 Wire Wire Line
 	1550 1500 1800 1500
@@ -473,7 +444,7 @@ NoConn ~ 1550 2400
 Wire Wire Line
 	1550 2500 1700 2500
 Wire Wire Line
-	1700 3350 4100 3350
+	1700 3350 3900 3350
 Wire Wire Line
 	3600 3100 3600 3450
 Wire Wire Line
@@ -482,16 +453,16 @@ Connection ~ 3900 3350
 Wire Wire Line
 	3600 3750 3600 3800
 Wire Wire Line
-	3900 3750 3900 5700
+	3900 3750 3900 3800
 Connection ~ 3900 3800
 Wire Wire Line
 	3250 4100 3250 3950
 Wire Wire Line
-	3250 3950 4000 3950
+	3250 3950 3900 3950
 Wire Wire Line
 	2100 4300 2100 4550
 Wire Wire Line
-	1800 4300 2400 4300
+	1800 4300 2100 4300
 Wire Wire Line
 	2700 4300 2950 4300
 Wire Wire Line
@@ -506,9 +477,9 @@ Wire Wire Line
 Wire Wire Line
 	1900 2200 1900 3100
 Wire Wire Line
-	1900 3100 4100 3100
+	1900 3100 3600 3100
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 598675B3
 P 6500 1250
 F 0 "#FLG02" H 6500 1345 50  0001 C CNN
@@ -519,7 +490,7 @@ F 3 "" H 6500 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 59867607
 P 7750 1300
 F 0 "#FLG03" H 7750 1395 50  0001 C CNN
@@ -535,11 +506,11 @@ Connection ~ 6500 1400
 Wire Wire Line
 	7750 1400 7750 1300
 Wire Wire Line
-	7250 1400 7750 1400
+	7250 1400 7300 1400
 Connection ~ 7300 1400
 Connection ~ 3600 3100
 $Comp
-L VCC #PWR04
+L power:VCC #PWR04
 U 1 1 5986AFAC
 P 7300 1250
 F 0 "#PWR04" H 7300 1100 50  0001 C CNN
@@ -552,13 +523,13 @@ $EndComp
 Wire Wire Line
 	2100 4850 2100 4900
 Wire Wire Line
-	2100 4900 4800 4900
+	2100 4900 3250 4900
 Connection ~ 4800 4900
 Wire Wire Line
 	3250 4850 3250 4900
 Connection ~ 3250 4900
 $Comp
-L CONN_01X02 P3
+L msp430_jtag-rescue:CONN_01X02 P3
 U 1 1 5986DAB2
 P 4550 5900
 F 0 "P3" H 4550 6050 50  0000 C CNN
@@ -577,7 +548,7 @@ GND
 Text Label 3900 5400 0    60   ~ 0
 VCC
 $Comp
-L LED D1
+L msp430_jtag-rescue:LED D1
 U 1 1 5987081F
 P 4550 3950
 F 0 "D1" H 4550 4050 50  0001 C CNN
@@ -588,7 +559,7 @@ F 3 "" H 4550 3950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R18
+L Device:R R18
 U 1 1 59870C6C
 P 4150 3950
 F 0 "R18" V 4230 3950 50  0000 C CNN
@@ -624,4 +595,50 @@ Wire Wire Line
 	7750 2750 7750 1850
 Wire Wire Line
 	7400 2750 7750 2750
+Wire Wire Line
+	4800 2700 4800 2800
+Wire Wire Line
+	4800 2800 4800 3950
+Wire Wire Line
+	6900 1400 6900 1750
+Wire Wire Line
+	6900 1400 6950 1400
+Wire Wire Line
+	1800 1400 6500 1400
+Wire Wire Line
+	1800 1500 1800 1600
+Wire Wire Line
+	1800 1600 1800 1700
+Wire Wire Line
+	1800 1700 1800 1800
+Wire Wire Line
+	1800 1800 1800 1900
+Wire Wire Line
+	1800 1900 1800 2000
+Wire Wire Line
+	1800 2000 1800 2100
+Wire Wire Line
+	3900 3350 4100 3350
+Wire Wire Line
+	3900 3800 3900 3950
+Wire Wire Line
+	2100 4300 2400 4300
+Wire Wire Line
+	6500 1400 6900 1400
+Wire Wire Line
+	7300 1400 7300 1650
+Wire Wire Line
+	7300 1400 7750 1400
+Wire Wire Line
+	3600 3100 4100 3100
+Wire Wire Line
+	4800 4900 4800 5700
+Wire Wire Line
+	3250 4900 4800 4900
+Wire Wire Line
+	3900 3950 4000 3950
+Wire Wire Line
+	3900 3950 3900 5700
+Wire Wire Line
+	4800 3950 4800 4900
 $EndSCHEMATC
