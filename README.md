@@ -9,4 +9,4 @@ A simple MSP430-JTAG Parallel Port Programmer
 
 ### Thanks
 
-[KiCad IDE](http://kicad-pcb.org/) - for letting me use a free software in designing PCB
+[KiCad IDE](http://kicad.org/) - for letting me use a free software in designing PCB
